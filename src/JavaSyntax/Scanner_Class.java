@@ -1,6 +1,6 @@
-package java_basic;
+package JavaSyntax;
 import java.util.Scanner; // Scanner 클래스 호출
-public class Scanner_ {
+public class Scanner_Class {
 
 	public static void main(String[] args) {
 	Scanner test = new Scanner(System.in); 

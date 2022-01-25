@@ -1,3 +1,4 @@
+package codeup_100;
 import java.util.Scanner;
 public class code_0225_1010_1027 {
 	//1010 정수 1개 입력 받아 그대로 출력하기
@@ -51,7 +52,7 @@ public class code_0225_1010_1027 {
 		String[] c2 = c0.split("\\."); //온점(.)split는 \\.
 		System.out.printf("%02d.%02d.%02d", Integer.valueOf(c2[0]),Integer.valueOf(c2[1]),Integer.valueOf(c2[2]));
 
-	//1019
+	//1019 정리해서 하기
 		Scanner sc9 = new Scanner(System.in);
 		String c02 = sc9.nextLine();
 		String[] c29 = c02.split("\\."); //온점(.)split는 \\.
@@ -67,6 +68,9 @@ public class code_0225_1010_1027 {
 		String per = sc20.nextLine();
 		String[] num = per.split("-");
 		System.out.printf("%s%s", num[0],num[1]);
+	
+	//1021
+		
 		
 		
 		
