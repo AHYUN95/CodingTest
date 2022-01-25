@@ -3,8 +3,9 @@ import java.util.Scanner; // Scanner 클래스 호출
 public class Scanner_Class {
 
 	public static void main(String[] args) {
-	Scanner test = new Scanner(System.in); 
-	// Scanner객체 생성, System.in : 입력을 받기 위한 입력 스트림
+		
+	Scanner test = new Scanner(System.in); // Scanner객체 생성, System.in : 입력을 받기 위한 입력 스트림
+	
 	// method > next+type() / string > next(), nextLine()
 		
 	int c = test.nextInt(); 		// int 형 입력 및 리턴
