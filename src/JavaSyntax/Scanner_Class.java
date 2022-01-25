@@ -12,6 +12,9 @@ public class Scanner_Class {
 	double f = test.nextDouble(); 	// double 형 입력 및 리턴
 	String h = test.next(); 		// String 형 입력 및 리턴 (공백을 기준으로 한 단어를 읽음)
 	String i = test.nextLine(); 	// String 형 입력 및 리턴 (개행을 기준으로 한 줄을 읽음)
+	
+	test.close(); // Scanner 종료하기
+	
 	}
 
 }
