@@ -1,6 +1,6 @@
 package codeup_100;
 import java.util.Scanner;
-public class code_0225_1010_1027 {
+public class code_0125_1010_1027 {
 	
 	//1010 정수 1개 입력 받아 그대로 출력하기
 	public static void main(String[] args) {

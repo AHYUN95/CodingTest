@@ -1,6 +1,6 @@
 package codeup_100;
 
-public class code_0225_1001_1008 {
+public class code_0125_1001_1008 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

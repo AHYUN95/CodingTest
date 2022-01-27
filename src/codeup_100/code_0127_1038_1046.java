@@ -1,6 +1,6 @@
 package codeup_100;
 import java.util.Scanner;
-public class code_0227_1038_1046 {
+public class code_0127_1038_1046 {
 
 	public static void main(String[] args) {
 	// 1038 합 구하기

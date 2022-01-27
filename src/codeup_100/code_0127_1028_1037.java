@@ -1,7 +1,7 @@
 package codeup_100;
 import java.util.Scanner;
 
-public class code_0227_1028_1037 {
+public class code_0127_1028_1037 {
 	public static void main(String[] args) {
 		
 		//1028 정수 입력 받아 출력
