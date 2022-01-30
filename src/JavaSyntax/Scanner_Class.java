@@ -15,6 +15,17 @@ public class Scanner_Class {
 	
 	test.close(); // Scanner 종료하기
 	
+	
+	//nextInt() --> nextLine() 입력 받기 오류
+	int num = test.nextInt();
+	String str = test.nextLine(); // 입력이 안됨 오류
+	
+	//nextInet의 경우 엔터키 누르기 전의 입력만 받음 
+	//그래서 nextLine이 nextInt엔터의 입력을 받아서 메소드 종료된다.
+	int num2 = test.nextInt();
+	test.nextLine(); // 개행문자(/n)삭제
+	String str2 = test.nextLine();
+	
 	}
 
 }
