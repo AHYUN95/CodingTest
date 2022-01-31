@@ -1,6 +1,6 @@
 package codeup_100;
 import java.util.Scanner;
-public class code_1030_1078_1092 {
+public class code_0131_1078_1092 {
 
 	//1078 짝수 합 구하기
 	public static void main1078(String[] args) {
