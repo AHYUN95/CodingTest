@@ -1,4 +1,4 @@
-package JavaSyntax;
+package JavaSyntax_Conditional;
 
 public class TernaryOperator {
 
