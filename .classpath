@@ -5,8 +5,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="Codeup"/>
-	<classpathentry kind="src" path="Algorithm"/>
-	<classpathentry kind="src" path="JavaSyntax"/>
+	<classpathentry kind="src" path="1.Codeup"/>
+	<classpathentry kind="src" path="2.Algorithm"/>
+	<classpathentry kind="src" path="0.JavaSyntax"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
