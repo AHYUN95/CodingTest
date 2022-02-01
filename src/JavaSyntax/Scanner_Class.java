@@ -26,6 +26,16 @@ public class Scanner_Class {
 	test.nextLine(); // 개행문자(/n)삭제
 	String str2 = test.nextLine();
 	
+	
+	//nextInt,next의 경우 1 2 3 이렇게 입력 받아도 엔터 스페이스로 분리됨
+	Scanner s = new Scanner(System.in);
+	int num3 = s.nextInt();
+	int num4 = s.nextInt();
+	int num5 = s.nextInt();
+	System.out.println(num3);
+	System.out.println(num4);
+	System.out.println(num5);
+	
 	}
 
 }
