@@ -44,7 +44,7 @@ public class List {
 		 System.out.println(result);
 		 
 		 //Remove함수 인덱스값을 넣는다.
-		 //삭제 성공하면 삭제값을 리턴
+		 //삭제 성공하면 삭제값 리턴
 		 list.remove(2);
 		 System.out.println(list);
 		 
