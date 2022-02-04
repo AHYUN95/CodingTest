@@ -1,4 +1,4 @@
-package Strings;
+package String;
 
 public class StringBuilder_ {
 	
