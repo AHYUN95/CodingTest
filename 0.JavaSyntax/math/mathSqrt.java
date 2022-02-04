@@ -1,6 +1,6 @@
-package Basic;
+package math;
 
-public class math {
+public class mathSqrt {
 
 	public static void main(String[] args) {
 		//Á¦°ö ±¸ÇÏ±â
