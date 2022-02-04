@@ -1,4 +1,4 @@
-package Conditiona;
+package Conditional;
 
 public class While {
 
