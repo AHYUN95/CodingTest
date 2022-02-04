@@ -1,4 +1,4 @@
-package recursion;
+package recursio;
 import java.util.Scanner;
 public class Fibonacci_10870 {
 
