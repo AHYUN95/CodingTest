@@ -3,7 +3,8 @@ package Sort;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Collection;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /*
 input값이 많은 경우 Arrays.sort으로 풀면 시간 초과 날수도
@@ -14,17 +15,21 @@ Collection.Sort사용(Timsort)
 
 public class NumberSorting2_2751 {
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		int N = Integer.parseInt(br.readLine());
-		int [] arr = new int [N];
+		ArrayList<Integer> list = new ArrayList<>();
+		
 		for(int i=0; i<N; i++) {
-			arr[i] = Integer.parseInt(br.readLine());
+			list.add(Integer.parseInt(br.readLine()));
 		}
 		
-		//Collection.sort(arr); /// 함수(오름차순 정리)
+		Collections.sort(list); /// 함수(오름차순 정리)
+		
 		StringBuilder sb = new StringBuilder();
 		for(int i=0; i<N; i++) {
-			sb.append(arr[i]+"\n");
+			sb.append(list.get(i)+"\n");
 		}
 		System.out.print(sb);
 
