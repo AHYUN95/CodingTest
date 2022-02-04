@@ -19,6 +19,7 @@ public class integer_method {
 		String re16 = Integer.toHexString(35);
 		
 		
+		System.out.println(two+eight+sixteen+str+re2+re8+re16);
 	}
 
 }
