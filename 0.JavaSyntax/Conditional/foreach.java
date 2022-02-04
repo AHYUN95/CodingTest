@@ -1,7 +1,4 @@
 package Conditional;
-
-import java.util.Scanner;
-
 public class foreach {
 
 	public static void main(String[] args) {
