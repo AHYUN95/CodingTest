@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class NumberSorting_ArraySort_2750{
 	//πÈ¡ÿ 2750, ArraySort
-	//Ω√∞£ ∫π¿‚µµ : ∆Ú±’ O(nlogn), √÷æ« O(n^2) 
+	//Ω√∞£ ∫π¿‚µµ : ∆Ú±’ O(nlogn),, √÷æ« O(n^2) 
 	public static void main(String[] args)throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
