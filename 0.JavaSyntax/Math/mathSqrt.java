@@ -1,4 +1,4 @@
-package Mathd;
+package Math;
 
 public class mathSqrt {
 
