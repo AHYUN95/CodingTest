@@ -1,4 +1,4 @@
-package recursio;
+package Recursion;
 import java.util.Scanner;
 public class Factorial_10872 {
 
