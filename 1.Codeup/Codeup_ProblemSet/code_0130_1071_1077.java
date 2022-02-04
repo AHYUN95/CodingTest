@@ -23,7 +23,7 @@ public class code_0130_1071_1077 {
 	public static void main1072(String[] args) {
 		
 	Scanner sc72 = new Scanner(System.in);
-	int num72 = sc72.nextInt();
+	//int num72 = sc72.nextInt();
 	sc72.nextLine(); //nextInt의 엔터가 nextLine에 들어가있어서 삭제
 	String [] str72 = sc72.nextLine().split(" ");
 	sc72.close();
