@@ -1,4 +1,4 @@
-package InputOutpu5;
+package InputOutput;
 import java.util.Scanner; // Scanner 클래스 호출
 public class Scanner_Class {
 

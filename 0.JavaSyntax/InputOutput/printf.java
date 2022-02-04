@@ -1,4 +1,4 @@
-package InputOutpu5;
+package InputOutput;
 import java.util.Scanner;
 
 public class printf {
