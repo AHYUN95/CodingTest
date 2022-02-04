@@ -1,4 +1,4 @@
-package Codeu_ProblemSet;
+package Codeup_ProblemSet;
 
 public class code_0125_1001_1008 {
 
