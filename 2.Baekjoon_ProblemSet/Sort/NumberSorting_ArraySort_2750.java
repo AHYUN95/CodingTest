@@ -18,7 +18,11 @@ public class NumberSorting_ArraySort_2750{
 		}
 		
 		Arrays.sort(arr); // 함수(오름차순으로 정리)
-		System.out.print(arr);
+		StringBuilder sb = new StringBuilder();
+		for(int i=0; i<N; i++) {
+			sb.append(arr[i]+"\n");
+		}
+		System.out.print(sb);
 		/*
 		*내림차순으로 표현
 		*arr가 int 인 경우 오류 발생
