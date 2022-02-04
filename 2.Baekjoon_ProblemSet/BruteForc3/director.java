@@ -1,4 +1,4 @@
-package BruteForce;
+package BruteForc3;
 import java.util.Scanner;
 public class director {
 
