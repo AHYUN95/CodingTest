@@ -24,7 +24,7 @@ public class printf {
 		System.out.println("¾È³ç|'ÇÏ¼¼¿ä|'"); //¾È³ç'ÇÏ¼¼¿ä'
 		System.out.println("¾È³ç||ÇÏ¼¼¿ä||"); //¾È³ç\ÇÏ¼¼¿ä\
 		
-		
+		printf.close();
 	}
 
 	
