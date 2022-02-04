@@ -1,4 +1,4 @@
-package Basic;
+package TypeConversion;
 import java.io.BufferedReader; //BufferedReader
 import java.io.InputStreamReader; //BufferedReader
 import java.io.IOException;

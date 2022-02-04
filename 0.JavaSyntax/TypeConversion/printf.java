@@ -1,4 +1,4 @@
-package Basic;
+package TypeConversion;
 import java.util.Scanner;
 
 public class printf {

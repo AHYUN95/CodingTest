@@ -1,4 +1,4 @@
-package Basic;
+package TypeConversion;
 import java.util.Scanner; // Scanner 클래스 호출
 public class Scanner_Class {
 
