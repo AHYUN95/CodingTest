@@ -1,4 +1,4 @@
-package Codeup_ProblemSet;
+package Codeu_ProblemSet;
 import java.util.Scanner;
 public class code_0128_1049_1058 {
 
