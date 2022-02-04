@@ -17,7 +17,7 @@ public class NumberSorting_ArraySort_2750{
 			arr[i] = Integer.parseInt(br.readLine());
 		}
 		
-		Arrays.sort(arr); // 함수(오름차순으로 정리)
+		Arrays.sort(arr); // 함수(오름차순 정리)
 		StringBuilder sb = new StringBuilder();
 		for(int i=0; i<N; i++) {
 			sb.append(arr[i]+"\n");
