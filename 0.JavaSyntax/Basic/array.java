@@ -23,6 +23,10 @@ public class array {
 			sum = sum+array4[i];
 		}System.out.println(sum);
 		
+		//경고창 보기 싫어서 생성함..
+		System.out.println(array1);
+		System.out.println(array2);
+		System.out.println(array3);
 	}
 
 }
