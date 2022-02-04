@@ -1,4 +1,4 @@
-package Basic;
+package TypeConversion;
 
 public class integer_method {
 
