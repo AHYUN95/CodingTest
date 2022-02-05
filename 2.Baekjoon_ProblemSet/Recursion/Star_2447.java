@@ -13,9 +13,11 @@ public class Star_2447 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int num = Integer.parseInt(br.readLine());
 		
-		//Scanner sc = new Scanner(System.in);
-		//int num = sc.nextInt();
-		//sc.close();
+		/*
+		 Scanner sc = new Scanner(System.in);
+		 int num = sc.nextInt();
+		 sc.close();
+		*/
 		
 		arr = new char[num][num];
 		
@@ -27,7 +29,7 @@ public class Star_2447 {
 		
 		for(int i=0; i<num; i++) {
 			System.out.println(arr[i]);
-	}
+		}
 		//아래처럼 해도 정답은 나오지만 시간 초과됨ㅠ
 		/* 
 		 * for(int i=0; i<num; i++){
