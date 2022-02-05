@@ -16,7 +16,8 @@ public class Baekjoon_2231 {
 			int com =0;
 			int index2 = index;
 			
-			/*<Review point>
+			/*
+			 <Review point>
 			 만약 
 			 while(index>0) {
 				com += index%10;
@@ -26,7 +27,6 @@ public class Baekjoon_2231 {
 			index가 222인 경우도 돌아야 하는데..
 			그래서 index2라는 값을 선언해서 이걸로 while안의 while을 돌려줌.
 			이중 조건일때 잘 확인하자~
-			
 			 */
 			while(index2>0) {
 				com += index2%10;
