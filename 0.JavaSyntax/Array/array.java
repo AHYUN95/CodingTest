@@ -1,4 +1,4 @@
-package Basic;
+package Array;
 
 public class array {
 
