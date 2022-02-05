@@ -18,7 +18,7 @@ public class Split {
 		String str2 = "»ç°úÀÔ´Ï´Ù";
 		String[] fruits2 = str2.split("");
 		
-		//split("")ÇÏ³ª¾¿ ³ª´²Áü
+		// split("")ÇÏ³ª¾¿ ³ª´²Áü
 		
 		for(int i2 = 0; i2<fruits2.length;i2++) {
 			System.out.println(fruits2[i2]);
