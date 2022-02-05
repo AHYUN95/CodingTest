@@ -26,8 +26,6 @@ public class NumberSorting_ArraySort_2750{
 		System.out.print(sb);
 		/*
 		*내림차순으로 표현
-		*arr가 int 인 경우 오류 발생
-		*Integer [] arr = new Integer [] arr;
 		*Arrays.sort(arr,Collections.reverseOrder());
 		*/
 	}
