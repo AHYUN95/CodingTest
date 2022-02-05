@@ -22,7 +22,7 @@ public class Baekjoon_2447 {
 			}
 		
 		
-		/* <시간 초과> 틀림 ㅠ
+		/* <시간 초과> 틀림
 		 
 		 for(int i=0; i<num; i++){
 		 	for(int j=0; j<num; j++){
