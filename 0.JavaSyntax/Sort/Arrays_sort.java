@@ -10,7 +10,7 @@ public class Arrays_sort {
 
 	public static void main(String[] args) {
 		
-		// <오름 차순>
+		//<오름 차순>
 		int [] arr = {5,2,4,3,1};
 		Arrays.sort(arr);
 		for(int i=0;i<5; i++)
