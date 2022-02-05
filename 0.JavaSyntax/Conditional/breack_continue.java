@@ -26,12 +26,11 @@ public class breack_continue {
 			System.out.println(i);  //결과 값 6 , 조건 만족했을 때 print
 			break;
 			}
-			System.out.println(i); //결과 값 1,2,3,4,5, 조건 만족하기 전까지 print
+			System.out.println(i); //결과 값 1,2,3,4,5, 조건 만족하기 전까지 print, break하면 아예 while문을 빠져나옴
 			i++;
 		}
-
-	
-	//
+	 //
+	 
 	}
 
 	}
