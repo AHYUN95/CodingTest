@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.io.IOException;
 
 
-public class NumberSorting_ArraySort_2750_TimeOver{
+public class NumberSorting_ArraySort_2750{
 	//백준 2750, ArraySort
 	//시간 복잡도 : 평균 O(nlogn),, 최악 O(n^2) 
 	public static void main(String[] args)throws IOException {

@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 //선택정렬로 푸는 경우 시간초과 발생
-public class CoordinateSorting_11650 {
+public class CoordinateSorting_11650_TimeOver {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
