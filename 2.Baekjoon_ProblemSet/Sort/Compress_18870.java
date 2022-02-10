@@ -44,5 +44,4 @@ public class Compress_18870  {
 		bw.close();
 		br.close();
 	}
-
 }
