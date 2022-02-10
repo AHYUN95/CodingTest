@@ -33,7 +33,7 @@ public class Hashmap_ {
 		
 		
 		
-		//+		
+		//
 		
 		int [] index = {5,3,3,1,4};
 		
