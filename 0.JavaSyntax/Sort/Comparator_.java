@@ -14,9 +14,18 @@ import java.util.Comparator;
  public interface Comparable{
  	int compareTo(Object o); // 주어진 객체(o)를 자신과 비교
  
-  + 양수 : 왼쪽이 크다, 0 : 같다, 음수 : 오른쪽이 크다
- *
+ + 양수 : 왼쪽이 크다(두 요소의 위치를 바꿈), 0 : 같다, 음수 : 오른쪽이 크다(두 요소를 그대로.)
+ + 숫자 : 오름차순, 문자 : 사전순
+ 
+ +
+compareTo 2개의 문자열을 비교하여 int형 값을 반환하는 메소드
+A.compareTo(B)
+A와 = B가 같으면 0을 반환
+A가 > B보다 크면 양수를 반화
+A가 < B보다 작으면 음수를 반환
+ 
  */
+ 
 public class Comparator_ {
 
 	public static void main(String[] args) {
