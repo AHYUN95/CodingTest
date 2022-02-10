@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class Compress_18870  {
@@ -22,15 +24,21 @@ public class Compress_18870  {
 			arr[i] = Integer.parseInt(str[i]);
 		}
 		
+		int [] index = arr.clone();
+		
+		Arrays.sort(index);
+		
+		int count = 0;
+		Map <Integer, Integer> map = new HashMap();
 		for(int i=0; i<N; i++) {
-			int count = 0;
-			for(int j=0; j<N; j++) {
-				if(arr[i]>arr[j])
-					count++;
-			}
-			sb.append(count+" ");
+			if(!map.containsKey(index[i]))
+			map.put(index[i],count++);
 		}
-
+		
+		for(int i=0; i<N; i++) {
+			sb.append(map.get(arr[i])+" ");
+		}
+		
 		bw.write(String.valueOf(sb));
 		bw.flush();
 		bw.close();
