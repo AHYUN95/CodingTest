@@ -1,0 +1,34 @@
+package Basic;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/*
+map = key + value 두 쌍으로 데이터를 보관하는 자료구죠
+*키값은 오직 유일해야 한다. 
+*value는 중복되어도 상관없다.
+ */
+public class Hashmap_ {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap();
+		//값입력
+		map.put("A",100);
+		map.put("B",101);
+		map.put("C",102);
+		map.put("C",103); // 중복시 최신 키 값으로 없데이트
+		//덮어씌우기 하기 싫을때
+		if(!map.containsKey("C")) //키C에 값이 있으면 덮어쓰지 않고 없으면 덮어쓴다.
+			map.put("c", 104);
+	
+		System.out.println(map); //{A=100, B=101, C=103}
+		System.out.println(map.get("C")); //103
+		
+		//모든 키 출력 map.keySet()함수 사용
+		for(String key:map.keySet()) {
+			System.out.println(map.get(key));// 100, 101, 103
+		}
+		
+	}
+
+}
