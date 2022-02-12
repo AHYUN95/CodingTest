@@ -16,35 +16,43 @@ import java.io.OutputStreamWriter;
 public class NM1_15649 {
 	static boolean[] visit;
 	static int [] arr;
-	StringBuilder sb = new StringBuilder();
+	static StringBuilder sb = new StringBuilder();
+	static int N;
+	static int M;
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		int N = Integer.parseInt(br.readLine()); // 넓이
-		int M = Integer.parseInt(br.readLine()); // 깊이
+		String [] str = br.readLine().split(" ");
+		N = Integer.parseInt(str[0]); // 넓이
+		M = Integer.parseInt(str[1]); // 깊이
 		
-		visit = new boolean[N]; //초기값 false
+		visit = new boolean[N]; //초기값 false, 방문 여부 확인
 		arr = new int [M];
 		
-		nm(N,M,0); // 깊이 0 부터 시작
+		nm(0); // dfs, 초기 depth 0부터 시작한다.
+		bw.write(String.valueOf(sb));
+		bw.flush();
+		bw.close();
+		br.close();
 		
 	}
-		public static void nm (int N, int M, int depth) {
+		public static void nm (int depth) {
 			if(depth == M) {
 				for(int val : arr) {
-					System.out.println(val+" ");
+					sb.append(val+" ");
 				}
-				System.out.println();
+				sb.append("\n");
+				return; //nm(depth+1)여기 재귀함수가 depth=M을 만족할때 아래 줄 실행 visit[i]=false
 			}
 			
 			for(int i=0; i<N; i++) {
-				if(visit[i]==false) {//중복값 피하기 위해서 
-					visit[i] = true;
-					arr[depth] = i+1;
-					nm(N,M,depth+1);
-					visit[i] = false;
+				if(visit[i]==false) {//수열 중복 피할려고
+					visit[i] = true; //i 방문처리
+					arr[depth] = i+1; //arr에 값을 추가
+					nm(depth+1);	//arr deph다음 배열에 넣을 값을 찾는다.
+					visit[i] = false; //return 되었을때 배열 방문여부를 false
 				}
 				
 			}
