@@ -48,7 +48,7 @@ public class NM1_15649 {
 			}
 			
 			for(int i=0; i<N; i++) {
-				if(visit[i]==false) {//수열 중복 피할려고
+				if(visit[i]==false) {
 					visit[i] = true; //i 방문처리
 					arr[depth] = i+1; //arr에 값을 추가
 					nm(depth+1);	//arr deph다음 배열에 넣을 값을 찾는다.
