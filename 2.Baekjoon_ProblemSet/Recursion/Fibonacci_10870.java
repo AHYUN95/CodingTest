@@ -6,6 +6,7 @@ public class Fibonacci_10870 {
 	Scanner sc = new Scanner(System.in);
 	int num = sc.nextInt();
 	sc.close();
+	
 	System.out.println(F(num));
 	}
 	
