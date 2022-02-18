@@ -24,5 +24,4 @@ public class Divisor_1037 {
 		int result = arr[0]*arr[N-1];
 		System.out.println(result);
 	}
-
 }

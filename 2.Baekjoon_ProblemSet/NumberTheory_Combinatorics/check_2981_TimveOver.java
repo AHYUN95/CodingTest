@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class check_2981_TimveOver {
 
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		

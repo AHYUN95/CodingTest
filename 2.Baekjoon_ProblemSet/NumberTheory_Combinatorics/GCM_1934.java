@@ -21,7 +21,6 @@ public class GCM_1934 {
 		System.out.println(sb);
 	}
 	
-	
 	static int gcm(int a, int b) {
 		
 		int result =0;
