@@ -24,5 +24,12 @@ public class Split {
 			System.out.println(fruits2[i2]);
 			}
 	
+		//구분자가 2개 일 경우 | 를 통해서 구분
+		// 특수 문자의 경우 \\특수문자 이렇게 써줘야 한다. 
+		String str3 = "1+2+3-4";
+		String [] s3 = str3.split("\\+|\\-");
+		for(int i = 0; i<s3.length;i++) {
+			System.out.println(s3[i]);
+			}
 	}
 }
