@@ -25,7 +25,6 @@ public class coin_11047 {
 			if(re >= carr[i]) {
 				count += re/carr[i]; // 몫만큼 동전 수가 필요
 				re = re%carr[i]; 
-				
 				/*
 				 * re = re%carr[i]; 
 				 * count += re/carr[i];

@@ -48,6 +48,4 @@ public class MeetingRoom_1931 {
 		}
 		System.out.println(count);
 	}
-
-
 }
