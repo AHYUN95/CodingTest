@@ -34,7 +34,6 @@ public class Baekjoon_11053 {
 		}
 		
 		System.out.println(max);
-
 	}
 	
 	static int dp(int n) {
