@@ -3,10 +3,12 @@ package DynamicProgramming;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Comparator;
 
-public class Knapsack_12865{
+public class Knapsack_12865 {
+
+	static Integer dp[][];
+	static int w[];
+	static int v[];
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,64 +16,35 @@ public class Knapsack_12865{
 		int n = Integer.parseInt(s1[0]);
 		int k = Integer.parseInt(s1[1]);
 		
-		int wv [][] = new int [n][2];
+		w= new int [n+1];
+		v= new int [n+1];
 		
-		for(int i=0; i<n; i++) {
-			String s [] = br.readLine().split(" ");
-			wv[i][0] = Integer.parseInt(s[0]);
-			wv[i][1] = Integer.parseInt(s[1]);
+		for(int i=1; i<=n; i++) {
+			String s2 [] = br.readLine().split(" ");
+			w[i] = Integer.parseInt(s2[0]);
+			v[i] = Integer.parseInt(s2[1]);
 		}
 		
-		Arrays.sort(wv, new Comparator <int[]> (){
-			@Override
-			public int compare(int[] c1, int[] c2) {
-				return c1[0]-c2[0];
-			}
-		});
+			dp = new Integer [n+1][k+1];
+			System.out.println(K(n,k));
 		
-		//dp에 앞에서 부터 더한 무게, 가치 넣어 줄꺼임
-		int dp [][] = new int [n][2];
-	
-		if(wv[0][0]<=k) {
-			
-			dp[0][0] = wv[0][0];
-			dp[0][1] = wv[0][1];
-			
-			for(int i=1; i<n; i++) {
-			if(dp[i-1][0]+wv[i][0]<=k) {
-				dp[i][1] = dp[i-1][1]+wv[i][1];
-				dp[i][0] = dp[i-1][0]+wv[i][0];	
-			}
-			else {
-				if(wv[i][0]<=k) {
-					dp[i][1] = Math.max(dp[i-1][1], wv[i][1]);
-					if(dp[i][0] == wv[i][0]) {
-						dp[i][1] = wv[i][1];
-					}else {
-						dp[i][1] =dp[i-1][1];
-					}
-				}else {oiiiiii
-				
-				dp[i][0] = dp[i-1][0];
-				dp[i][1] = dp[i-1][1];
-				}
-				for(int j=i-1; j>0; j--) {
-					if(dp[j][0]+wv[i][0]<=k) {
-						dp[i][1] = Math.max(dp[j][1]+wv[i][1],dp[i-1][1]);
-						if(dp[i][1]==dp[i-1][1]) {
-							dp[i][0] = dp[i-1][0];
-						}else {
-							dp[i][0] = dp[j][0]+wv[i][0];
-						}
-					break;
-					}
-				}
-			}
-		}
-		System.out.println(dp[n-1][1]);
-		}else {
-			System.out.println(0);
-		}
 	}
-
+	//무게 k에 대해서 w[i] 까지 확인했을 때 최대값을 더 해준다.
+	static int K(int i, int k) {
+		
+		if(dp[i][k]==null) {
+			
+			if(i==0 || k==0) {
+				return dp[i][k] =0;
+			}
+			if(w[i]>k) {
+				return dp[i][k] = K(i-1,k);
+			}
+			if(w[i]<=k) {
+				return dp[i][k] = Math.max(K(i-1,k-w[i])+v[i],K(i-1,k));
+			}
+		}
+		return dp[i][k];
+	}
+	
 }
