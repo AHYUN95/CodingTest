@@ -14,15 +14,14 @@ public class FashionKing_9375 {
 		
 		int t = Integer.parseInt(br.readLine());
 		
+		//for(int i=t; i>0; i--) 동일
 		while(t-->0) {
 			HashMap<String,Integer> hm = new HashMap<>();
 			
 			int n = Integer.parseInt(br.readLine());
 			
-			//while 한개 돌고 n 값이 감소함 true일 경우 까지(0보다 클때)
 			//for(int i=n; i>0; i--) 동일
-			//while(n-->0) 
-			for(int i=n; i>0; i--){
+			while(n-->0) {
 				String [] s = br.readLine().split(" ");
 				String kind = s[1];
 				
