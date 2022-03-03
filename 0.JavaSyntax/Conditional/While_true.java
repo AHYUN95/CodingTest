@@ -20,6 +20,11 @@ public class While_true {
 				}
 		}
 
+		/*
+		for(int i=n; i>0; i--) µ¿ÀÏ
+		while(t-->0)
+		 * 
+		 */
 	}
 
 }
