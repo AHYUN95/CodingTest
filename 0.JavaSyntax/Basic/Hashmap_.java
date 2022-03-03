@@ -47,5 +47,21 @@ public class Hashmap_ {
 		}
 		
 	}
+		/* input값에서 종류별로 몇개 인지 알고 싶을 때
+	 			while(n-->0) {
+				String [] s = br.readLine().split(" ");
+				String kind = s[1];
+				
+				//값이 있으면 그 값에 1을 더해주기
+				if(hm.containsKey(kind)) {
+					hm.put(kind, hm.get(kind)+1);
+				}
+				//없으면 값을 넣어주고 1을 넣어주기
+				else {
+					hm.put(kind, 1);
+				}
+				
+			}
+	 */
 
 }
