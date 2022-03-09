@@ -45,6 +45,8 @@ public class Knapsack_12865 {
 			}
 		}
 		return dp[i][k];
+		
+		
 	}
 	
 }
