@@ -45,6 +45,8 @@ public class FileZip_11066 {
 		}
 	}
 	
+	
+	
 	//n>=2
 	static int Cost(int n) {
 		
