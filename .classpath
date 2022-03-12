@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="2.Baekjoon_ProblemSet"/>
 	<classpathentry kind="src" path="0.JavaSyntax"/>
 	<classpathentry kind="src" path="00.Review"/>
+	<classpathentry kind="src" path="etc"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
