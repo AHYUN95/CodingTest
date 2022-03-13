@@ -7,6 +7,7 @@ public class test3 {
 		int height = 47;
 		int diagonals  [][] = {{17,19}};
 		solution(width,height,diagonals);
+		
 	}
 	
     static int solution(int width, int height, int[][] diagonals) {
