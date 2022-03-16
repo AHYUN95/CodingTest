@@ -14,7 +14,7 @@ public class Stack_Basic {
 		stack.pop(); //  stack에서 가장 위에 값 제거
 		stack.clear(); // stack의 전체 값 제거
 		stack.peek(); //stack의 가장 위에 값 제거
-		stack.empty(); // stack이 비어있는지 확인
+		stack.isEmpty(); // stack이 비어있는지 확인
 		stack.size(); // stack 사이즈 출력 : 2
 		stack.contains(1); // stack 에 1이 있는지 check (있다면 출력)
 		
