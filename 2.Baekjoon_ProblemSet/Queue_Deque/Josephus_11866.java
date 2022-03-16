@@ -16,7 +16,6 @@ public class Josephus_11866 {
 		int k = sc.nextInt();
 		sc.close();
 		
-	
 		for(int i=1; i<=n; i++) {
 			q.offer(i);
 		}
