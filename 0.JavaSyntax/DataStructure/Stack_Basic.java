@@ -19,6 +19,7 @@ public class Stack_Basic {
 		stack.contains(1); // stack 에 1이 있는지 check (있다면 출력)
 		
 		
+		
 		//stack의 총 합 구할 때
 		int sum =0;
 		for(int o :stack) {

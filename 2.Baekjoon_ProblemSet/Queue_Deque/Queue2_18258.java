@@ -54,8 +54,7 @@ public class Queue2_18258 {
 			break;
 				
 			}
-		}
-		
+		}	
 		System.out.println(sb);
 	}
 	
