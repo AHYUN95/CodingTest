@@ -11,6 +11,7 @@ public class Knapsack_12865 {
 	static int v[];
 	
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String s1 [] = br.readLine().split(" ");
 		int n = Integer.parseInt(s1[0]);
