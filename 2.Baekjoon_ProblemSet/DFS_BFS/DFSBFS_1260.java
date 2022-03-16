@@ -43,7 +43,6 @@ public class DFSBFS_1260 {
 		visited = new boolean[n+1]; // 다시 초기화
 		
 		BFS(v);
-		
 	}
 	
 	static void DFS(int start) {

@@ -27,9 +27,7 @@ public class virus_2606 {
 			map [Integer.parseInt(str[0])][Integer.parseInt(str[1])] =1;
 			map [Integer.parseInt(str[1])][Integer.parseInt(str[0])] =1;
 		}
-		
 		bfs(1);
-	
 	}
 	
 	static void bfs(int start) {
@@ -50,7 +48,7 @@ public class virus_2606 {
 				}
 			}
 		}
-		System.out.println(count);
+		System.out.println(count-1);
 	}
 
 }
