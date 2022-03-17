@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="0.JavaSyntax"/>
 	<classpathentry kind="src" path="00.Review"/>
 	<classpathentry kind="src" path="etc"/>
+	<classpathentry kind="src" path="3.Programmers_ProblemSet"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
