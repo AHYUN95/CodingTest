@@ -2,7 +2,10 @@ package Basic;
 import java.util.ArrayList;
 
 /*
- 	Array : 인덱스를 가진 데이터 집합
+ 	Array 
+ 	>> 길이를 알수 없는 배열에서 사용하면 좋음 (프로그래머스 lv.2 오픈채팅 참고)
+ 	
+ 	: 인덱스를 가진 데이터 집합
  			랜덤 엑세스 가능 중간에 삽입,삭제 어려움
  	List : 인덱스 없이 순차적으로 저장된 데이터 집합
  			랜덤엑세스 불가능, 데이터 삽입 삭제 쉬움
@@ -11,6 +14,7 @@ import java.util.ArrayList;
 public class List {
 
 	public static void main(String[] args) {
+		
 		ArrayList<String> list = new ArrayList<>();
 		
 		list.add("첫번째");
@@ -51,6 +55,30 @@ public class List {
 		 //출력 : 첫번째
 		 String result2 = list.remove(0);
 		 System.out.println(result2);
+		 
+		 
+		 /*
+
+
+		 ArrayList<String> list = new ArrayList<String>();
+        
+        for(int i=0; i<record.length; i++) {
+        	String tmp [] = record[i].split(" ");
+        	if(tmp[0].equals("Enter")){
+        		list.add(hm.get(tmp[1])+"님이 들어왔습니다.");
+        	}else if(tmp[0].equals("Leave")){
+        		list.add(hm.get(tmp[1])+"님이 나갔습니다.");
+        	}
+        }
+        
+        String[] answer = new String [list.size()];
+        for(int i=0; i<answer.length; i++) {
+        	answer[i] = list.get(i);
+        }
+		  
+		  
+		  
+		  */
 		 
 	}
 
