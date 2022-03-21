@@ -3,7 +3,7 @@ package Level2;
 public class 문자열압축 {
 
 	public static void main(String[] args) {
-		
+		//test 케이스
 		System.out.println(solution("acacacacabcdabcdaaeessced"));
 
 	}
