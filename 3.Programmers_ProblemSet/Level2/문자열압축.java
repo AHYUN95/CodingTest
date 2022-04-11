@@ -9,7 +9,37 @@ public class 문자열압축 {
 	}
 
 	static int solution (String s) {
-		int answer =s.length();
+		if(s.length()==1) return 1;
+		
+		int answer = 1001; //최대 문자 길이
+
+		for(int i=1; i<=s.length()/2; i++) {//자르는 단뒤
+			String now = ""; 
+			String next = "";
+			String result = "";
+			int hit = 1; //동일하면 증가, 같지 않으면 문자열 붙임
+			for(int j=0; j<s.length()-2*i; j=j+i) {
+				now = s.substring(j,j+i);
+				next = s.substring(j+i,j+2*i);
+				if(now.equals(next)) {
+					hit++; //같으면 숫자 넣어준다.
+				}else {
+					if(hit==1) {
+						result += next;
+					}else {
+						result = result+hit+now+next;
+					}
+				}
+			}
+	}	
+		return answer;
+}
+
+	
+	/*
+class Solution {
+    public int solution(String s) {		
+        int answer =s.length();
 		
 		int count = 0;
 
@@ -32,9 +62,10 @@ public class 문자열압축 {
 				}
 		}
 			answer = Math.min(answer, count); //for문 돌면서 최소값을 추가해준다.
-	}	
-		return answer;
+	}
+		
+		return answer;}
+    
 }
-
-
+	 */
 }
