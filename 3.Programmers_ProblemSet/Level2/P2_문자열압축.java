@@ -12,6 +12,7 @@ public class P2_문자열압축 {
 		if(s.length()==1) return 1;
 		
 		int answer = 1001; //최대 문자 길이
+		
 
 		for(int i=1; i<=s.length()/2; i++) {//자르는 단뒤
 			String now = ""; 
