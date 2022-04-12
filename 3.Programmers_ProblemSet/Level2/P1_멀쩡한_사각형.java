@@ -1,6 +1,6 @@
 package Level2;
 
-public class 멀쩡한_사각형 {
+public class P1_멀쩡한_사각형 {
 
 	public static void main(String[] args) {
 		//test case
