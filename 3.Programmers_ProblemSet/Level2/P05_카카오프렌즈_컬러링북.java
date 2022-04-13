@@ -1,6 +1,6 @@
 package Level2;
 
-public class P5_카카오프렌즈_컬러링북 {
+public class P05_카카오프렌즈_컬러링북 {
 
 	public static void main(String[] args) {
 		//test케이스
