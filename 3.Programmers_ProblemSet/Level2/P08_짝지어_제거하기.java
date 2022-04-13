@@ -2,7 +2,7 @@ package Level2;
 
 import java.util.Stack;
 
-public class P8_짝지어_제거하기 {
+public class P08_짝지어_제거하기 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

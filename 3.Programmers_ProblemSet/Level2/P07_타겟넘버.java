@@ -3,7 +3,7 @@ package Level2;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class P7_Å¸°Ù³Ñ¹ö {
+public class P07_Å¸°Ù³Ñ¹ö {
 
 	public static void main(String[] args) {
 		int [] number = {1,1,1,1,1};

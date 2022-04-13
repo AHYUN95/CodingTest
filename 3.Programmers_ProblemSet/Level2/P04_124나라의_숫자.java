@@ -1,6 +1,6 @@
 package Level2;
 
-public class P4_124나라의_숫자 {
+public class P04_124나라의_숫자 {
 
 	public static void main(String[] args) {
 		// test case

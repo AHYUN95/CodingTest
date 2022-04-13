@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P3_오픈채팅 {
+public class P03_오픈채팅 {
 
 	public static void main(String[] args) {
 		//test 케이스 
