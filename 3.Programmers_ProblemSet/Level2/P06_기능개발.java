@@ -13,6 +13,7 @@ public class P06_기능개발 {
 		
 		solution(progresses,speeds);
 
+		
 	}
 
 	    static int[] solution(int[] progresses, int[] speeds) {
