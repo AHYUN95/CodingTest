@@ -27,7 +27,6 @@ public class P14_H_Index {
             }
         }
         
-        
         return answer;
     }
 
