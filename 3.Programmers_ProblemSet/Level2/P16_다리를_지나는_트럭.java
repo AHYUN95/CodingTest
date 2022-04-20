@@ -12,7 +12,6 @@ public class P16_다리를_지나는_트럭 {
       
         Queue <Integer> q = new LinkedList<>(); //다리는 건너는 트럭
 
-      
         int time =0;
         int limit=0; 
         
@@ -39,8 +38,7 @@ public class P16_다리를_지나는_트럭 {
                     }
                 }
             }
-        }
-        
+        }     
         answer = time + bridge_length;
         
         return answer;
